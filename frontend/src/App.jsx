@@ -30,7 +30,7 @@ function App() {
 
   };
 
-  useEffect(() => {fetchData(),[]})
+  useEffect(() => {fetchData()},[])
 
 
   const [formData, setFormData] = useState({base: "", quote: ""})
